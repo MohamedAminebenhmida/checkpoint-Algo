@@ -1,15 +1,16 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/Navbar';
-import MyForm from './components/MyForm';
+import Photo from './Profile/ProfilePhoto';
+import Add from './Profile/Address';
+import Name from './Profile/FullName';
 
 function App() {
   return (
-
     <div className="App">
-      <NavBar/>
-      <MyForm/>
+      <Photo/>
+      <Name/>
+      <Add/>
     </div>
 
 
